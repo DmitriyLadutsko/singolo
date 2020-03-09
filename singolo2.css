@@ -1,0 +1,153 @@
+html {
+  font-family: "Lato", Verdana, sans-serif;
+  font-size: 10px;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  height: 863px;
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+
+h2 {
+  color: #666d89;
+  font-size: 30px;
+  font-weight: 900;
+  padding-top: 69px;
+  padding-bottom: 20px;
+  letter-spacing: -0.02rem;
+  line-height: 17.86px;
+}
+
+.portfolio-description {
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-top: 7px;
+}
+
+.buttons {
+  height: 22px;
+  display: flex;
+
+  margin: 10px 0;
+  color: #767e9e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 8.56px;
+}
+
+.buttons__item {
+  padding: 6px;
+  margin-right: 10px;
+  border: 1px solid #666d89;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons__item:hover {
+  border: 1px solid #c5c5c5;
+  color: #dedede;
+  transition: 0.3s;
+}
+
+.block-images {
+  margin-top: 20px;
+}
+
+.block-images ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.block-images ul li:not(:nth-child(4n)) {
+  margin-right: 20px;
+}
+
+.block-images ul li {
+  margin-bottom: 18px;
+}
+
+.block-images ul li:nth-child(1n + 13) {
+  display: none;
+}
+
+.about-us {
+  height: 722px;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+.about-us_description {
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  padding-top: 7px;
+  padding-bottom: 45px;
+  line-height: 30px;
+}
+
+.heroes-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  max-width: 300px;
+}
+
+h3 {
+  color: #666d89;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 17.86px;
+  letter-spacing: -0.02rem;
+}
+
+.hero__name {
+  padding-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hero__description {
+  color: #767e9e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  padding-top: 9px;
+  padding-bottom: 26px;
+  text-align: justify;
+  letter-spacing: -0.01rem;
+}
+
+.hero__links {
+  width: 152px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link:hover {
+  cursor: pointer;
+}
