@@ -1,0 +1,149 @@
+html {
+  font-family: "Lato", Verdana, sans-serif;
+  font-size: 10px;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.quote {
+  background-color: #f06c64;
+  height: 648px;
+  border-bottom: 6px solid #ea676b;
+
+}
+
+h2 {
+  color: #f0d8d9;
+  font-size: 30px;
+  font-weight: 900;
+  padding-top: 69px;
+  padding-bottom: 20px;
+
+  line-height: 17.86px;
+}
+
+.quote__description {
+  color: #f0d8d9;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-top: 7px;
+  text-align: justify;
+}
+
+.quote__connection {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-top: 20px;
+}
+
+.form {
+  position: relative;
+  width: 619px;
+}
+
+input {
+  display: block;
+
+  background-color: #d6564f;
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  width: 604px;
+  height: 36px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 15px;
+}
+
+textarea {
+  font-family: Lato;
+  background-color: #d6564f;
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  width: 604px;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 0 8px 15px;
+
+}
+
+.contact-info {
+  max-width: 301px;
+  color: #f0d8d9;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 17.86px;
+  padding: 1px 0 0 1px;
+}
+
+.contact-info__description {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 1px;
+  text-align: justify;
+  letter-spacing: -0.01rem;
+}
+
+.contact-info__link-item {
+    margin-left: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  padding-top: 9px;
+  padding-bottom: 26px;
+}
+
+#location {
+  list-style-image: url(assets/location.png);
+  padding-left: 7px;
+  margin-left: -3px;
+}
+#phone {
+  list-style-image: url(assets/phone.png);
+  padding-left: 5px;
+  padding-top: 1px;
+  margin-left: -1px;
+}
+#email {
+  list-style-image: url(assets/mail.png);
+  padding-left: 4px;
+  padding-top: 1px;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer span{
+    
+}
