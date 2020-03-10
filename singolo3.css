@@ -157,6 +157,10 @@ h3 {
   line-height: 33px;
 }
 
+.dot{
+    color: #494e62;
+}
+
 .footer__links {
     width: 152px;
     display: flex;
