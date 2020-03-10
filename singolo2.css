@@ -30,6 +30,9 @@ h2 {
   color: #666d89;
   font-size: 30px;
   font-weight: 900;
+}
+
+.portfolio-title, .about-us__title {
   padding-top: 69px;
   padding-bottom: 20px;
   letter-spacing: -0.02rem;

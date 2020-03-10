@@ -30,9 +30,11 @@ h2 {
   color: #f0d8d9;
   font-size: 30px;
   font-weight: 900;
+}
+
+.quote__title {
   padding-top: 69px;
   padding-bottom: 20px;
-
   line-height: 17.86px;
 }
 
@@ -92,7 +94,7 @@ textarea {
   color: #f0d8d9;
 }
 
-h3 {
+.contact-info h3 {
   font-size: 18px;
   font-weight: 900;
   line-height: 17.86px;
@@ -139,14 +141,13 @@ h3 {
 .footer {
   height: 76px;
   background-color: #2d303a;
-
 }
 
-.wrapper-footer{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    padding-top: 20px;
+.wrapper-footer {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 .footer span {
@@ -157,16 +158,16 @@ h3 {
   line-height: 33px;
 }
 
-.dot{
-    color: #494e62;
+.dot {
+  color: #494e62;
 }
 
 .footer__links {
-    width: 152px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .link:hover {
-    cursor: pointer;
-  }
+  width: 152px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link:hover {
+  cursor: pointer;
+}
