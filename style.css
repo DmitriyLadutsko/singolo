@@ -372,6 +372,7 @@ html {
     padding-top: 69px;
     padding-bottom: 20px;
     line-height: 17.86px;
+    color: #f0d8d9;
   }
   
   .quote__description {
@@ -435,6 +436,7 @@ html {
     font-weight: 900;
     line-height: 17.86px;
     padding: 1px 0 0 1px;
+    color: #f0d8d9;
   }
   
   .contact-info__description {
