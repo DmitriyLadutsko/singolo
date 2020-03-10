@@ -24,7 +24,6 @@ li {
   background-color: #f06c64;
   height: 648px;
   border-bottom: 6px solid #ea676b;
-
 }
 
 h2 {
@@ -86,7 +85,6 @@ textarea {
   border: none;
   border-radius: 7px;
   padding: 7px 0 8px 15px;
-
 }
 
 .contact-info {
@@ -113,7 +111,7 @@ h3 {
 }
 
 .contact-info__link-item {
-    margin-left: 20px;
+  margin-left: 20px;
   font-size: 12px;
   font-weight: 400;
   line-height: 21.56px;
@@ -138,12 +136,33 @@ h3 {
   padding-top: 1px;
 }
 
-.footer{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+.footer {
+  height: 76px;
+  background-color: #2d303a;
+
 }
 
-.footer span{
-    
+.wrapper-footer{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 20px;
 }
+
+.footer span {
+  color: #666d89;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.footer__links {
+    width: 152px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .link:hover {
+    cursor: pointer;
+  }
