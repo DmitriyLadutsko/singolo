@@ -354,6 +354,9 @@ h3 {
 
 .link:hover {
   cursor: pointer;
+  background-color: #f06b646c;
+  border-radius: 15px;
+  transition: 0.2s;
 }
 
 /* Singolo3: */
