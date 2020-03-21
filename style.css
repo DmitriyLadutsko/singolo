@@ -25,6 +25,9 @@ body {
 }
 
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
   padding: 29.5px 0;
   background-color: #2d303a;
   color: #ffffff;
